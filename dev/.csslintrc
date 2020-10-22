@@ -1,0 +1,32 @@
+{
+  "ignore": [
+    "adjoining-classes",
+    "box-model",
+    "box-sizing",
+    "compatible-vendor-prefixes",
+    "display-property-grouping",
+    "duplicate-background-images",
+    "fallback-colors",
+    "floats",
+    "font-sizes",
+    "gradients",
+    "ids",
+    "important",
+    "known-properties",
+    "order-alphabetical",
+    "outline-none",
+    "overqualified-elements",
+    "qualified-headings",
+    "selector-newline",
+    "star-property-hack",
+    "text-indent",
+    "unique-headings",
+    "universal-selector",
+    "unqualified-attributes",
+    "zero-units"
+  ],
+  "warnings": [
+  ],
+  "errors": [
+  ]
+}

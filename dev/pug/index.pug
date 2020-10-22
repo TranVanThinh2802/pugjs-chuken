@@ -1,0 +1,98 @@
+extends _layouts/default
+
+block vars
+  -title        = 'happy'
+  -description  = ''
+  -keywords     = ''
+  -pageID       = 'top'
+  -path         = '.'
+
+block container
+  section.section-top-keyvisual
+    h1.sec-title Builder.io
+      .content-top
+        p.top-title Builder.io lets you generate unique HTML website templates talloried for desigers.
+        a(href="#" class = "btn-top") SIGN UP
+        img(src="img/main-top/banner.png", width = "100%" alt="phone" class = "img-top")
+
+  section.section-top-about
+    .sec-title
+      .about-button
+        a(href="#" class = "started") GET STARTED
+        a(href="#" class = "demo") TRY DEMO
+      h3.built Built for creative folk
+      p.sec-content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua consectetur adipisicing elit.  
+  
+  
+  section.section-top-work
+    .sec-title
+      .work-top
+        .left
+          h3 work width your hands
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam
+          a(href="#" class = "create-account") CREATE ACCOUNT
+        .right
+          h3 Optimised for the road
+          p Builder not only works great on a desktop or laptop but has also <br> been optimised to be just as easy to use on a table or mobile <br> device.
+      .work-bellow
+        img(src="img/main-three/phone.png", alt="phone")
+  
+  section.section-for
+    .sec-title
+      h3 TAKE A LOOK INSIDE
+      P Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+      .button-sec-for
+        a(href="#" class = "take-money") TAKE MY MONEY
+        a(href="#" class = "free-account") FREE ACCOUNT
+  section.section-five
+    .sec-title
+      .row
+        .col-3
+          img(src="img/main-five/fa-area-chart.png", alt="chart")
+          h3 Pick your layouts
+          p Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam
+          a(href="#") Create Account Here
+        .col-3
+          img(src="img/main-five/fa-archive.png", alt="archive")
+          h3 Export
+          p Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam
+          a(href="#") See Pricing
+        .col-3
+          img(src="img/main-five/fa-arrows-alt.png", alt="arrows")
+          h3 Edit
+          p Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam
+          a(href="#") View support Documents
+  section.pricing
+    .sec-title
+      h3.choose-subscription CHOOSE A SUBSCRIPTION
+      p.choose-info A interface built by designers, for designers. What a clice tag line lol.
+      .option
+        .option-left
+          .name-option FREE ACCOUNT
+          .great Great for giving it a try or the one off
+          .design web design <br>
+            span FREE
+          .limit Save up to 2layers
+          .limit Export 1 HTML Template
+          .limit 14 Layout Option
+          .more Tweet to get mor layouts
+          .option-button.left
+            a(href="#") SIGN UP
+            img(src="img/pricing/check.png", alt="" class = "position")
+          p.join Join 34,293 users
+        .option-left
+          .name-option YEARLY SUBSCRIPTION
+          .great Great for giving it a try or the one off
+          .design web design <br>
+            span $89 /YEAR
+          .limit Save unlimited layouts
+          .limit Export unlimited HTML Template
+          .limit Over 30 Layout Options counting
+          .limit New layout added monthly
+          .limit Learning Documentation
+          .more Something else
+          .option-button
+            a(href="#" class = "a-right") SIGN UP
+            img(src="img/pricing/check.png", alt="" class = "check c-right")
+          p.join-right Join 1,828 users
+

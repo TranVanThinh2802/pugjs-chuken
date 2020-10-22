@@ -1,0 +1,13 @@
+{
+  "attr-bans": ["align", "background", "bgcolor", "border", "frameborder", "longdesc", "marginwidth", "marginheight", "scrolling", "style"],
+  "attr-name-style": "dash",
+  "attr-req-value": false,
+  "doctype-first": true,
+  "doctype-html5": true,
+  "id-class-no-ad": false,
+  "id-class-style": "dash",
+  "indent-style": "spaces",
+  "indent-width": 2,
+  "line-end-style": false,
+  "tag-bans": ["style"]
+}
