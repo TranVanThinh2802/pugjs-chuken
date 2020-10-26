@@ -2,33 +2,33 @@
 
 
 /* COMMON FOOTER
- * -----------------------------------------------*/
+.title
+  font-size: 20px
+  color: #b7bfc5
+  padding-bottom: 10px
+  padding-top: 30px
+
+/* -----------------------------------------------*/
 
 footer
   width: auto
   height: auto
   .inner
     width: 1000px
+    padding-top: 10px
+    display: flex
     margin: 0 auto
-    .row
-      padding-top: 59px
-      display: grid
-      grid-template-columns: auto auto auto
-      padding-left: 120px
-      padding-bottom: 127px
-      .col-3
-        font-weight: 600
-        h3
-          font-size: 20px
-          color: #b7bfc5
-          padding-bottom: 30px
-        p
-          font-size: 14px
-          color: #b7bfc5
-          line-height: 35px
-        P:hover
-          color: #44c5c7
-          transition: all 0.13s
+    padding-bottom: 50px
+    .list
+      padding: 0px 100px
+    .content
+      font-size: 14px
+      color: #b7bfc5
+      line-height: 35px
+      font-weight: 500
+    .content:hover
+      color: #44c5c7
+      transition: all 0.13s
 
 +desktop
   footer
@@ -42,13 +42,11 @@ footer
     min-width: 120px
     .inner
       width: auto
-      .row
-        padding-left: 30px
-        display: block
-        .col-3
-          margin-bottom: 30px
-          text-align: center
-          p
-            font-size: 0.13rem
-          h3
-            font-size: 0.2rem
+      display: block
+      padding-left: 20px
+      padding-right: 20px
+      text-align: center
+      .title
+        font-size: 0.2rem
+      .content
+        font-size: 0.14rem
